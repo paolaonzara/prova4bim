@@ -1,0 +1,149 @@
+body{
+    background-color: #272533;
+    font-family: "Fredoka", sans-serif;
+}
+
+.custom-navbar {
+    background-color: #F4F3EE; /* Cor de fundo personalizada */
+}
+
+
+
+.custom-navbar .nav-link:hover {
+    color: #bb8588; /* Cor do texto ao passar o mouse */
+}
+
+.navbar-brand{
+    color: black;
+    margin-left: 4%;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+}
+
+.nav-link{
+    color: black;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+}
+
+.custom-navbar .navbar-nav {
+    display: flex;
+    margin-right: 10%;
+}
+
+.intro-section {
+    display: flex; /* Usando flexbox */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin: 50px 0; /* Margens superior e inferior */
+}
+
+.intro-image {
+    border-radius: 15%; 
+    width: 40%; /* Ajusta a largura da imagem como porcentagem */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 350px; /* Limite máximo para telas grandes */
+    margin-left: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.intro-text {
+    max-width: 600px; /* Limita a largura do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+    font-family: "Fredoka", sans-serif;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .intro-section {
+        flex-direction: column; /* Alinha verticalmente em telas menores */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .intro-image {
+        width: 80%; /* Aumenta a largura da imagem em telas menores */
+        margin-left: 0; /* Remove margem esquerda */
+        margin-top: 20px; /* Adiciona margem superior */
+    }
+
+    .intro-text {
+        margin-right: 0; /* Remove margem direita */
+        margin-left: 0; /* Remove margem esquerda */
+    }
+}
+
+section{
+    padding: 6%;
+    align-content: center;
+    display: flex;
+}
+
+.sobre{
+    text-align: center;
+}
+
+.custom-card{
+    background-color: #bb8588;
+    width: 100%;
+    
+    
+}
+
+.custom-btndold{
+   background-color: #F4F3EE;
+   color: black;
+}
+
+.progress-bar{
+    background-color: #bb8588;
+}
+
+.carousel{
+    width: 100%;
+}
+
+h6{
+    color: rgba(0, 0, 0, 0.514);
+}
+
+footer{
+    background-color: #F4F3EE;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 1%;
+}
+
+.footrr{
+    margin-left: 12%;
+}
+
+.imgretangulo{
+    border-radius: 15%; 
+    width: 40%; /* Ajusta a largura da imagem como porcentagem */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 450%; /* Limite máximo para telas grandes */
+    margin-left: 50%;
+    margin-top: -20%;
+}
+
+@media (max-width: 576px) {
+    .imgretangulo {
+        max-width: 100%; /* Aumenta a largura máxima em telas pequenas */
+        margin-top: 20%;
+        margin-left: 6%;
+        min-width: 90%;
+    }
+}
+
+ .carousel-inner{
+    width: 100%;
+ }
+
+
+ .imagenss{
+    margin-left: 17%;
+ }
+
+ .carrosel{
+    width: 100%;
+ }
